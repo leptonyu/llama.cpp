@@ -21,7 +21,8 @@ ARG ROCM_DOCKER_ARCH="\
     gfx1030 \
     gfx1100 \
     gfx1101 \
-    gfx1102"
+    gfx1102 \
+    gfx1150"
 
 COPY requirements.txt   requirements.txt
 COPY requirements       requirements
